@@ -1,0 +1,358 @@
+@media (max-width: 1000px) {
+  .header-content nav,
+  .header-content .soc {
+    max-width: 151px;
+  }
+  .mini-menu {
+    display: block;
+    z-index: 2;
+  }
+  .header-content nav {
+    position: relative;
+  }
+  .header-content nav ul {
+    display: none;
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 4px 0 15px rgb(41, 41, 41);
+    background: url("../Images/City-Tower-Dunnhumby-1.jpg") center top no-repeat local / cover;
+    font-size: 25px;
+  }
+  .header-content nav ul li {
+    display: block;
+  }
+  .header-content nav ul li:first-child {
+    margin-top: 20px;
+  }
+  .header-content nav ul li a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+  }
+  .contacts {
+    flex-wrap: wrap;
+  }
+  .contacts > * {
+    width: 100%;
+  }
+  .map:first-child,
+  .map:last-child {
+    margin: 0;
+  }
+  .contact,
+  .con {
+    transform: skew(0deg);
+  }
+  .contact {
+    order: -1;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+      -23px -23px 20px -23px rgba(0, 0, 0, 0.8),
+      23px 23px 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+  .con {
+    margin-top: 0;
+  }
+  .no-txt {
+    display: none;
+  }
+  .inline {
+    display: inline-block;
+  }
+  .more {
+    display: block;
+  }
+  .more h1,
+  .con h1 {
+    margin-bottom: 0;
+  }
+  .contacts p {
+    margin: 10px 0 5px;
+  }
+  .photo-goods {
+    flex-wrap: wrap;
+  }
+  .photo-goods img {
+    width: 33.3333%;
+    filter: none;
+  }
+  .inner-footer {
+    flex-wrap: wrap;
+  }
+  .navigation {
+    width: 100%;
+    text-align: center;
+  }
+
+  .open,
+  .phone,
+  .addres {
+    width: 33.3333%;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header-content nav,
+  .header-content .soc {
+    max-width: 33px;
+  }
+  .mini-soc {
+    display: block;
+  }
+  .mini-soc i {
+    display: inline-block;
+    z-index: 2;
+  }
+  .soc {
+    position: relative;
+  }
+  .soc .all-soc {
+    display: none;
+    position: absolute;
+    top: -25px;
+    right: 0;
+    width: 113px;
+    height: auto;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 4px 0 15px rgb(41, 41, 41);
+    background: url("../Images/City-Tower-Dunnhumby-1.jpg") center top;
+    font-size: 25px;
+  }
+  .soc .all-soc a {
+    text-decoration: none;
+  }
+  .soc .all-soc a i {
+    display: block;
+    margin-top: 60px;
+    color: #fff;
+  }
+  .soc a img {
+    margin-top: 50px;
+  }
+  .navigation,
+  .open,
+  .phone,
+  .addres {
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .fone {
+    background-position: -140px;
+  }
+  .soc-header {
+    display: none;
+  }
+  .fone h1{
+    text-shadow: none;
+    font-size: 4vw;
+  }
+  .fone h1:last-child{
+    text-shadow: none;
+
+  }
+
+  .fone h1:last-child {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 3vw;
+  }
+  .advantages {
+    margin-top: 10px;
+  }
+
+  .big-rec-1,
+  .big-rec-2,
+  .big-rec-3 {
+    margin-bottom: 0;
+    margin-top: -15px;
+    border-right: 1px solid rgb(212, 212, 212);
+  }
+  .litl-rec-1,
+  .litl-rec-2,
+  .litl-rec-3 {
+    padding: 25px 15px 25px;
+    margin-top: -15px;
+    border-top: 1px solid rgb(212, 212, 212);
+  }
+  .litl-rec-1 {
+    border-top: none;
+  }
+  .big-rec-2,
+  .big-rec-4 {
+    border-right: none;
+  }
+  .big-rec-1,
+  .big-rec-2,
+  .big-rec-3,
+  .big-rec-4,
+  .big-rec-5,
+  .big-rec-6 {
+    width: 100%;
+    height: 170px;
+    margin-top: 20px;
+    border-right: none;
+  }
+  .us-img {
+    width: 100%;
+    height: 400px;
+  }
+  .us-txt {
+    height: 300px;
+    width: 100%;
+    display: block;
+  }
+  .choise1,
+  .choise2,
+  .choise3 {
+    font-size: 14px;
+  }
+  .about-us {
+    margin-top: -25px;
+  }
+  .subscribe h1 {
+    font-size: 18px;
+    padding: 10px;
+  }
+  .subscribe p {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .subscribe {
+    height: 480px;
+  }
+  .photo-goods img {
+    width: 50%;
+  }
+  .navigation,
+  .open,
+  .phone,
+  .addres {
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 900px) {
+  .fone h1 {
+    text-shadow: 1px 1px black, 2px 2px #777;
+    font-size: 4vw;
+  }
+
+  .fone h1:last-child {
+    font-size: 2vw;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 3vw;
+  }
+
+  .big-rec-1,
+  .big-rec-2,
+  .big-rec-3,
+  .big-rec-4,
+  .big-rec-5,
+  .big-rec-6 {
+    width: 50%;
+  }
+  .big-rec-3 {
+    margin-bottom: 0;
+    margin-top: -15px;
+    border-right: 1px solid rgb(212, 212, 212);
+    height: 136px;
+  }
+  .litl-rec-3 {
+    padding: 25px 15px 25px;
+    margin-top: -15px;
+    border-top: 1px solid rgb(212, 212, 212);
+  }
+  .big-rec-2,
+  .big-rec-4 {
+    border-right: none;
+  }
+
+  .us-img {
+    width: 100%;
+    height: 400px;
+  }
+  .us-txt {
+    height: 280px;
+    width: 100%;
+    display: block;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 600px) {
+  .litl-rec-1 {
+    border-top: none;
+  }
+  .big-rec-1,
+  .big-rec-2,
+  .big-rec-3,
+  .big-rec-4,
+  .big-rec-5,
+  .big-rec-6 {
+    width: 100%;
+    border-right: none;
+  }
+  .big-rec-1,
+  .big-rec-2,
+  .big-rec-3 {
+    margin-bottom: 0;
+    margin-top: -15px;
+    border-right: none;
+  }
+  .litl-rec-1,
+  .litl-rec-2,
+  .litl-rec-3 {
+    padding: 25px 15px 25px;
+    margin-top: -15px;
+    border-top: 1px solid rgb(212, 212, 212);
+    height: 170px;
+  }
+  .litl-rec-1 {
+    border-top: none;
+  }
+  .litl-rec-1 i {
+    padding-right: 16px;
+  }
+  .about-us {
+    margin-top: -25px;
+  }
+  .subscribe h1 {
+    font-size: 23px;
+    padding: 10px;
+  }
+  .subscribe {
+    height: 480px;
+  }
+  .navigation,
+  .open,
+  .phone,
+  .addres {
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+  }
+}
+@media (max-width: 370px) {
+  .three {
+    display: inline-block;
+  }
+  .scew-test {
+    height: 350px;
+  }
+  .us-txt {
+    height: 360px;
+    width: 100%;
+    display: block;
+  }
+}
